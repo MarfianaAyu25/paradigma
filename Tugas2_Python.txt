@@ -1,0 +1,30 @@
+>>> class Complex:
+	def __init__(self, realpart, imagpart): 
+		self.r = realpart
+		self.i = imagpart
+
+>>> x = Complex(3.0, -4.5)
+>>> x.r, x.i
+(3.0, -4.5)
+
+PENJELASAN : Program ini adalah program yang memiliki sebuah class dengan nama Complex, kemudian membuat konstruktor dengan method init yang berfungsi untuk melakukan intialisasi pembuatan objek. self.r = realpart merupakan sebuah variable self.r dengan objek realpart, sedangkan self.i = imagpart merupakan sebuah variable self.i dengan objek imagpart. x = Complex(3.0, -4.5) adalah membuat variable x yang ada didalam class Complex dengan nilai variable r adalah 3.0 dan variable i adalah -4.5. kemudian x.r, x.i adalah pemanggilan variable sehingga akan menampilkan output (3.0, -4.5) sesuai dengan program yang dibuat.
+
+>>> class Dog:
+	kind = 'canine'
+	def __init__(self, name):
+		self.name = name
+
+		
+>>> d = Dog('Fido')
+>>> e = Dog('Buddy')
+>>> d.kind
+'canine'
+>>> e.kind
+'canine'
+>>> d.name
+'Fido'
+>>> e.name
+'Buddy'
+
+PENJELASAN : Program diatas adalah program yang memiliki sebuah class dengan nama Dog, kemudian kind = 'canine' merupakan sebuah objek kind yang didalamnya berisi string dengan nama canine. def __init__(self, name): adalah membuat konstruktor dengan method init yang berfungsi untuk initialisasi pembuatan objek. self.name = name merupakan sebuah variable self.name dengan objek name. d = Dog('Fido') merupakan variable d di dalam class dog yang berisi Fido, >>> e = Dog('Buddy') merupakan variable e di dalam class dog yang berisi Buddy. selanjutnya d.kind, e.kind, d.name, e.name adalah memanggil variable.
+
